@@ -1,1 +1,32 @@
-site_name: My Docs
+site_name: THUASTA Tech Roadmap
+
+nav:
+  - Home: index.md
+
+  - Comp Dept.:
+    - Home: dept/comp.md
+    - Premilinary Knowledge:
+      - pre_knowledge/markdown.md
+    - Learn a Language:
+      - prog_lang/c.md
+      - prog_lang/cpp.md
+      - prog_lang/csharp.md
+      - prog_lang/python.md
+    - Version Control System:
+      - vcs/git.md
+    - Repo Hosting Services:
+      - repo/github.md
+    - OS and General Knowledge:
+      - os/terminal.md
+    - Testing:
+      - test/unit_test.md
+    - CI/CD:
+      - cicd/github_actions.md
+    - Containers:
+      - virt/docker.md
+    - Networking:
+      - net/http.md
+      - net/websocket.md
+
+  - Tech Dept.:
+    - Home: dept/tech.md
