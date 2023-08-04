@@ -2,31 +2,41 @@ site_name: THUASTA Tech Roadmap
 
 nav:
   - Home: index.md
-
-  - Comp Dept.:
-    - Home: dept/comp.md
-    - Premilinary Knowledge:
-      - pre_knowledge/markdown.md
-    - Learn a Language:
-      - prog_lang/c.md
-      - prog_lang/cpp.md
-      - prog_lang/csharp.md
-      - prog_lang/python.md
-    - Version Control System:
-      - vcs/git.md
-    - Repo Hosting Services:
-      - repo/github.md
-    - OS and General Knowledge:
-      - os/terminal.md
-    - Testing:
-      - test/unit_test.md
+  - Comp Dept.: dept/comp.md
+  - Tech Dept.: dept/tech.md
+  - Topics:
     - CI/CD:
-      - cicd/github_actions.md
-    - Containers:
-      - virt/docker.md
+      - GitHub Actions: ci_cd/github_actions.md
+    - Containerization:
+      - Docker: container/docker.md
     - Networking:
-      - net/http.md
-      - net/websocket.md
+      - HTTP: networking/http.md
+      - Websocket: networking/websocket.md
+    - OS and General Knowledge:
+      - Terminal: os/terminal.md
+    - Premilinary Knowledge:
+      - Markdown: pre_knowledge/markdown.md
+    - Learn a Language:
+      - prog_lang/index.md
+      - C#: prog_lang/csharp.md
+      - Python: prog_lang/python.md
+    - Repo Hosting Service:
+      - GitHub: repo/github.md
+    - Testing:
+      - Unit Testing: testing/unit_testing.md
+    - Version Control System:
+      - Git: vcs/git.md
 
-  - Tech Dept.:
-    - Home: dept/tech.md
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
