@@ -62,6 +62,8 @@ flowchart TB
     http --> websockets
   end
 
+  unity[Unity]
+
   pre_knowledge --> prog_lang
   prog_lang --> vcs
   vcs --> repo
@@ -70,4 +72,5 @@ flowchart TB
   testing --> ci_cd
   ci_cd --> container
   container --> networking
+  networking --> unity
 ```
