@@ -8,5 +8,7 @@ You can check the roadmap below: [Dedicated Python Roadmap](https://roadmap.sh/p
 Visit the following resources to learn more:
 
 [Python Website](https://www.python.org/)
+
 [Python Getting Started](https://www.python.org/about/gettingstarted/)
+
 [W3Schools - Python Tutorial](https://www.w3schools.com/python/)
