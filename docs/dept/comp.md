@@ -2,32 +2,72 @@
 
 Step by step guide for members of Comp Dept., THUASTA.
 
-  - Comp Dept.:
-    - Home: dept/comp.md
-    - Premilinary Knowledge:
-      - pre_knowledge/markdown.md
-    - Learn a Language:
-      - prog_lang/csharp.md
-      - prog_lang/python.md
-    - Version Control System:
-      - vcs/git.md
-      - vcs/github.md
-    - OS and General Knowledge:
-      - os/terminal.md
-    - Testing:
-      - test/unit_test.md
-    - CI/CD:
-      - cicd/github_actions.md
-    - Containers:
-      - virt/docker.md
-    - Networking:
-      - net/http.md
-      - net/websocket.md
-
 ```mermaid
 flowchart TB
-    c1-->a2
-    subgraph ide1 [one]
-    a1-->a2
-    end
+  subgraph pre_knowledge[Premilinary Knowledge]
+    markdown[Markdown]
+  end
+
+  subgraph prog_lang[Learn a Language]
+    direction LR
+
+    python[Python]
+    csharp[C#]
+
+    python --> csharp
+  end
+
+  subgraph vcs[Version Control System]
+    git[Git]
+  end
+
+  subgraph repo[Repo Hosting Service]
+    github[GitHub]
+  end
+
+  subgraph os[OS and General Knowledge]
+    direction LR
+
+    terminal[Terminal Usage]
+    posix[POSIX Basics]
+    commands[Basic Terminal Commands]
+
+    terminal --> posix
+    posix --> commands
+  end
+
+  subgraph testing[Testing]
+    direction LR
+
+    unit_testing[Unit Testing]
+    integration_testing[Integration Testing]
+
+    unit_testing --> integration_testing
+  end
+
+  subgraph ci_cd[CI/CD]
+    github_actions[GitHub Actions]
+  end
+
+  subgraph container[Containerization]
+    docker[Docker]
+  end
+
+  subgraph networking[Networking]
+    direction LR
+
+    http[HTTP]
+    websockets[WebSockets]
+
+    http --> websockets
+  end
+
+  pre_knowledge --> prog_lang
+  prog_lang --> vcs
+  vcs --> repo
+  repo --> os
+  os --> testing
+  testing --> ci_cd
+  ci_cd --> container
+  container --> networking
 ```
