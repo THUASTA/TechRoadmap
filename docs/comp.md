@@ -4,22 +4,21 @@ Step by step guide for members of Comp Dept., THUASTA.
 
 ```mermaid
 flowchart TB
-  subgraph pre_knowledge[Premilinary Knowledge]
-    direction LR
+  %% Hide lines for styling
+  prog_lang --- os
+  testing --- networking
+  linkStyle 0,1 stroke:transparent;
 
+  subgraph pre_knowledge[Premilinary Knowledge]
     markdown[Markdown]
     vscode[VSCode]
-
-    markdown --> vscode
+    format[Formatting and Linting]
   end
 
   subgraph prog_lang[Learn a Language]
-    direction LR
-
     python[Python]
     csharp[C#]
-
-    python --> csharp
+    go{{Go}}
   end
 
   subgraph vcs[Version Control System]
@@ -31,8 +30,6 @@ flowchart TB
   end
 
   subgraph os[OS and General Knowledge]
-    direction LR
-
     terminal[Terminal Usage]
     commands[Basic Terminal Commands]
 
@@ -40,12 +37,8 @@ flowchart TB
   end
 
   subgraph testing[Testing]
-    direction LR
-
     unit_testing[Unit Testing]
     integration_testing[Integration Testing]
-
-    unit_testing --> integration_testing
   end
 
   subgraph ci_cd[CI/CD]
@@ -54,28 +47,33 @@ flowchart TB
 
   subgraph container[Containerization]
     docker[Docker]
+    k8s{{Kubernetes}}
+
+    docker -.-> k8s
   end
 
   subgraph networking[Networking]
-    direction LR
-
     internet[Internet]
     http[HTTP]
     websockets[WebSockets]
 
     internet --> http
-    http --> websockets
+    internet --> websockets
+  end
+
+  subgraph rel_db[Relational Database]
+    postgres{{PostgreSQL}}
   end
 
   unity{{Unity}}
 
-  pre_knowledge --> prog_lang
-  prog_lang --> vcs
-  vcs --> repo
-  repo --> os
-  os --> testing
-  testing --> ci_cd
-  ci_cd --> container
-  container --> networking
-  networking --> unity
+  vscode --> prog_lang
+  commands --> git
+  git --> github
+  github --> github_actions
+  commands --> docker
+  commands --> testing
+
+  internet -.-> postgres
+  csharp -.-> unity
 ```

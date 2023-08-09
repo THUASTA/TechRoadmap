@@ -5,3 +5,7 @@ Markdown is a lightweight markup language that you can use to add formatting ele
 Visit the following resources to learn more:
 
 - [Getting started with writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+
+Mermaid is a Markdown-like script language for generating charts from text via JavaScript. It is used in this documentation to generate the flowcharts. Visit the following resources to learn more:
+
+- [Mermaid](https://mermaid.js.org/intro/)

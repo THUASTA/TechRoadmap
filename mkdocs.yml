@@ -2,8 +2,8 @@ site_name: THUASTA Tech Roadmap
 
 nav:
   - Home: index.md
-  - Comp Dept.: dept/comp.md
-  - Tech Dept.: dept/tech.md
+  - Comp Dept.: comp.md
+  - Tech Dept.: tech.md
   - Topics:
     - CI/CD:
       - ci_cd/index.md
