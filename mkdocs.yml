@@ -17,18 +17,26 @@ nav:
       - What is HTTP?: networking/http.md
       - WebSockets: networking/websockets.md
     - OS and General Knowledge:
+      - os/index.md
       - Terminal Usage: os/terminal.md
+      - Basic Terminal Commands: os/commands.md
     - Premilinary Knowledge:
+      - pre_knowledge/index.md
       - Markdown: pre_knowledge/markdown.md
+      - VSC: pre_knowledge/vscode.md
     - Learn a Language:
       - prog_lang/index.md
       - C#: prog_lang/csharp.md
       - Python: prog_lang/python.md
     - Repo Hosting Service:
+      - repo/index.md
       - GitHub: repo/github.md
     - Testing:
+      - testing/index.md
       - Unit Testing: testing/unit_testing.md
+      - Integration Testing: testing/int_testing.md
     - Version Control System:
+      - vcs/index.md
       - Git: vcs/git.md
 
 markdown_extensions:

@@ -2,13 +2,14 @@
 
 Python is a well known programming language which is both a strongly typed and a dynamically typed language. Being an interpreted language, code is executed as soon as it is written and the Python syntax allows for writing code in functional, procedural or object-oriented programmatic ways.
 
-You can check the roadmap below: [Dedicated Python Roadmap](https://roadmap.sh/python)
-
-
 Visit the following resources to learn more:
 
-[Python Website](https://www.python.org/)
+- [W3Schools - Python Tutorial](https://www.w3schools.com/python/)
 
-[Python Getting Started](https://www.python.org/about/gettingstarted/)
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
-[W3Schools - Python Tutorial](https://www.w3schools.com/python/)
+- [pip documentation](https://pip.pypa.io/en/stable/)
+
+After learning the basics of Python, you can start learning about Poetry, a Python dependency management tool.
+
+- [Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)

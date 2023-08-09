@@ -5,7 +5,12 @@ Step by step guide for members of Comp Dept., THUASTA.
 ```mermaid
 flowchart TB
   subgraph pre_knowledge[Premilinary Knowledge]
+    direction LR
+
     markdown[Markdown]
+    vscode[VSCode]
+
+    markdown --> vscode
   end
 
   subgraph prog_lang[Learn a Language]
@@ -29,11 +34,9 @@ flowchart TB
     direction LR
 
     terminal[Terminal Usage]
-    posix[POSIX Basics]
     commands[Basic Terminal Commands]
 
-    terminal --> posix
-    posix --> commands
+    terminal --> commands
   end
 
   subgraph testing[Testing]
@@ -56,13 +59,15 @@ flowchart TB
   subgraph networking[Networking]
     direction LR
 
+    internet[Internet]
     http[HTTP]
     websockets[WebSockets]
 
+    internet --> http
     http --> websockets
   end
 
-  unity[Unity]
+  unity{{Unity}}
 
   pre_knowledge --> prog_lang
   prog_lang --> vcs
