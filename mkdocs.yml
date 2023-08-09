@@ -6,14 +6,18 @@ nav:
   - Tech Dept.: dept/tech.md
   - Topics:
     - CI/CD:
+      - ci_cd/index.md
       - GitHub Actions: ci_cd/github_actions.md
     - Containerization:
+      - container/index.md
       - Docker: container/docker.md
-    - Networking:
-      - HTTP: networking/http.md
-      - Websocket: networking/websocket.md
+    - Internet:
+      - networking/index.md
+      - How does the Internet work?: networking/internet.md
+      - What is HTTP?: networking/http.md
+      - WebSockets: networking/websockets.md
     - OS and General Knowledge:
-      - Terminal: os/terminal.md
+      - Terminal Usage: os/terminal.md
     - Premilinary Knowledge:
       - Markdown: pre_knowledge/markdown.md
     - Learn a Language:
