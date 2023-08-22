@@ -2,42 +2,41 @@ site_name: THUASTA Tech Roadmap
 
 nav:
   - Home: index.md
-  - Comp Dept.: comp.md
-  - Tech Dept.: tech.md
+  - Comp Dept.:
+    - Roadmap: comp_dept/roadmap.md
+    - Syllabus: comp_dept/syllabus.md
   - Topics:
     - CI/CD:
-      - ci_cd/index.md
-      - GitHub Actions: ci_cd/github_actions.md
+      - topics/ci_cd/index.md
+      - GitHub Actions: topics/ci_cd/github_actions.md
     - Containerization:
-      - container/index.md
-      - Docker: container/docker.md
+      - topics/container/index.md
+      - Docker: topics/container/docker.md
     - Internet:
-      - networking/index.md
-      - How does the Internet work?: networking/internet.md
-      - What is HTTP?: networking/http.md
-      - WebSockets: networking/websockets.md
-    - OS and General Knowledge:
-      - os/index.md
-      - Terminal Usage: os/terminal.md
-      - Basic Terminal Commands: os/commands.md
-    - Premilinary Knowledge:
-      - pre_knowledge/index.md
-      - Markdown: pre_knowledge/markdown.md
-      - VSC: pre_knowledge/vscode.md
+      - topics/networking/index.md
+      - How does the Internet work?: topics/networking/internet.md
+      - What is HTTP?: topics/networking/http.md
+      - WebSockets: topics/networking/websockets.md
     - Learn a Language:
-      - prog_lang/index.md
-      - C#: prog_lang/csharp.md
-      - Python: prog_lang/python.md
+      - topics/prog_lang/index.md
+      - C#: topics/prog_lang/csharp.md
+      - Python: topics/prog_lang/python.md
+    - Markdown: topics/markdown.md
+    - OS and General Knowledge:
+      - topics/os/index.md
+      - Terminal Usage: topics/os/terminal.md
+      - Basic Terminal Commands: topics/os/commands.md
     - Repo Hosting Service:
-      - repo/index.md
-      - GitHub: repo/github.md
+      - topics/repo/index.md
+      - GitHub: topics/repo/github.md
     - Testing:
-      - testing/index.md
-      - Unit Testing: testing/unit_testing.md
-      - Integration Testing: testing/int_testing.md
+      - topics/testing/index.md
+      - Unit Testing: topics/testing/unit_testing.md
+      - Integration Testing: topics/testing/int_testing.md
     - Version Control System:
-      - vcs/index.md
-      - Git: vcs/git.md
+      - topics/vcs/index.md
+      - Git: topics/vcs/git.md
+    - Visual Studio Code: topics/vscode.md
 
 markdown_extensions:
   - pymdownx.superfences:
