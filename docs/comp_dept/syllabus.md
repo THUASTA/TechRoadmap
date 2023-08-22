@@ -1,13 +1,13 @@
 # Syllabus
 
-We will give the lectures below to the new members of Comp Dept. New members should finish the homework and upload to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业一/张三/作业一.md`). If the folder does not exist, please create one.
+We will give the lectures below to the new members of Comp Dept. New members should finish the homework following the instructions in the handouts.
 
 ## Schedule
 
 Lecture 1: Preliminary Knowledge
 
 - Date: Aug 25, 2023
-- Topics: Visual Studio Code, Markdown, Terminal, Commands
+- Topics: Visual Studio Code, Markdown, Mermaid, Terminal, Commands
 
 Lecture 2: Language Basics I
 
@@ -36,4 +36,10 @@ Lecture 6: Containerization and Networking
 
 ## Assignments
 
+Assignment 1: Markdown First Step [[Handout]](assignment_1.md)
 
+- Due: Aug 31, 2023
+
+Assignment 2: Dive into Command Line [[Handout]](assignment_2.md)
+
+- Due: Aug 31, 2023

@@ -5,6 +5,8 @@ nav:
   - Comp Dept.:
     - Roadmap: comp_dept/roadmap.md
     - Syllabus: comp_dept/syllabus.md
+    - Assignment 1: comp_dept/assignment_1.md
+    - Assignment 2: comp_dept/assignment_2.md
   - Topics:
     - CI/CD:
       - topics/ci_cd/index.md
