@@ -15,7 +15,7 @@ flowchart TB
     graphql{{GraphQL}}
   end
 
-  subgraph build_systems[Build Systems]
+  subgraph build_sys[Build Systems]
     cmake[CMake]
     make{{Make}}
   end
@@ -67,8 +67,8 @@ flowchart TB
 
   subgraph rel_db[Relational Database]
     postgres{{PostgreSQL}}
-    mysql[MySQL]
-    sqlite[SQLite]
+    mysql{{MySQL}}
+    sqlite{{SQLite}}
   end
 
   subgraph testing[Testing]
@@ -125,8 +125,11 @@ flowchart TB
   grpc -.-> graphql
 
 
+  click cmake "../../topics/build_sys/cmake"
   click commands "../../topics/os/commands"
+  click conda "../../topics/packages/conda"
   click csharp "../../topics/prog_lang/csharp"
+  click c_cpp "../../topics/prog_lang/c_cpp"
   click docker "../../topics/container/docker"
   click git "../../topics/vcs/git"
   click github "../../topics/repo/github"
@@ -135,7 +138,9 @@ flowchart TB
   click integration_testing "../../topics/testing/int_testing"
   click internet "../../topics/networking/internet"
   click markdown "../../topics/markdown"
+  click poetry "../../topics/packages/poetry"
   click python "../../topics/prog_lang/python"
+  click rest "../../topics/apis/rest"
   click terminal "../../topics/os/terminal"
   click unit_testing "../../topics/testing/unit_testing"
   click vscode "../../topics/vscode"

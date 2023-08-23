@@ -8,6 +8,9 @@ nav:
     - Assignment 1: comp_dept/assignment_1.md
     - Assignment 2: comp_dept/assignment_2.md
   - Topics:
+    - Build Systems:
+      - topics/build_sys/index.md
+      - CMake: topics/build_sys/cmake.md
     - CI/CD:
       - topics/ci_cd/index.md
       - GitHub Actions: topics/ci_cd/github_actions.md
@@ -21,13 +24,21 @@ nav:
       - WebSockets: topics/networking/websockets.md
     - Learn a Language:
       - topics/prog_lang/index.md
+      - C/C++: topics/prog_lang/c_cpp.md
       - C#: topics/prog_lang/csharp.md
       - Python: topics/prog_lang/python.md
+    - Learn about APIs:
+      - topics/apis/index.md
+      - REST: topics/apis/rest.md
     - Markdown: topics/markdown.md
     - OS and General Knowledge:
       - topics/os/index.md
       - Terminal Usage: topics/os/terminal.md
       - Basic Terminal Commands: topics/os/commands.md
+    - Package Managers:
+      - topics/packages/index.md
+      - Conda: topics/packages/conda.md
+      - Poetry: topics/packages/poetry.md
     - Repo Hosting Service:
       - topics/repo/index.md
       - GitHub: topics/repo/github.md
