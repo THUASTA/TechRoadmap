@@ -17,17 +17,17 @@ Lecture 2: Language Basics I
 Lecture 3: Language Basics II
 
 - Date: Aug 31, 2023
-- Topics: C#, .NET CLI
+- Topics: C#
 
 Lecture 4: Language Basics III
 
 - Date: Sep 3, 2023
-- Topics: C/C++, CMake
+- Topics: C/C++, CMake, Unit Testing, Integration Testing
 
 Lecture 5: Version Control and Repo Hosting
 
 - Date: Sep 6, 2023
-- Topics: Git, GitHub, GitHub Actions, Unit Testing, Integration Testing
+- Topics: Git, GitHub, GitHub Actions
 
 Lecture 6: Containerization and Networking
 
