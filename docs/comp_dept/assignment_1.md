@@ -20,4 +20,4 @@ Replicate the diagram in the following page with Mermaid. Just draw the diagram.
 
 ## Submitting Your Work
 
-Once you have completed all the questions, please submit your work to Tsinghua Cloud, uploading them to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业一/张三/xxx.md`). If the folder does not exist, please create one.
+You should finish your work by August 31st. Once you have completed all the questions, please submit your work to Tsinghua Cloud, uploading them to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业一/张三/xxx.md`). If the folder does not exist, please create one.

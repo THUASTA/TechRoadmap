@@ -2,8 +2,6 @@
 
 We will give the lectures below to the new members of Comp Dept. New members should finish the homework following the instructions in the handouts.
 
-## Schedule
-
 Lecture 1: Preliminary Knowledge
 
 - Date: Aug 25, 2023
@@ -33,13 +31,3 @@ Lecture 6: Containerization and Networking
 
 - Date: Sep 9, 2023
 - Topics: Docker, Internet, HTTP, WebSocket, REST
-
-## Assignments
-
-Assignment 1: Markdown First Step [[Handout]](assignment_1.md)
-
-- Due: Aug 31, 2023
-
-Assignment 2: Dive into Command Line [[Handout]](assignment_2.md)
-
-- Due: Aug 31, 2023
