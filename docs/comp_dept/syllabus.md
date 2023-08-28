@@ -10,17 +10,17 @@ Lecture 1: Preliminary Knowledge
 Lecture 2: Language Basics I
 
 - Date: Aug 28, 2023
-- Topics: Python, Conda, Poetry
+- Topics: Python, Conda
 
-Lecture 3: Language Basics II
+Lecture 3: Project Management
 
 - Date: Aug 31, 2023
-- Topics: C#
+- Topics: CMake, Poetry, Unit Testing, Integration Testing
 
-Lecture 4: Language Basics III
+Lecture 4: Language Basics II
 
 - Date: Sep 3, 2023
-- Topics: C/C++, CMake, Unit Testing, Integration Testing
+- Topics: C#
 
 Lecture 5: Version Control and Repo Hosting
 
