@@ -7,6 +7,7 @@ nav:
     - Syllabus: comp_dept/syllabus.md
     - Assignment 1: comp_dept/assignment_1.md
     - Assignment 2: comp_dept/assignment_2.md
+    - Assignment 3: comp_dept/assignment_3.md
   - Topics:
     - Build Systems:
       - topics/build_sys/index.md
