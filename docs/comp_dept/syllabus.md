@@ -12,20 +12,20 @@ Lecture 2: Language Basics I
 - Date: Aug 28, 2023
 - Topics: Python, Conda
 
-Lecture 3: Project Management
+Lecture 3: Version Control and Repo Hosting
 
-- Date: Aug 31, 2023
-- Topics: CMake, Poetry, Unit Testing, Integration Testing
+- Date: Sep 6, 2023
+- Topics: Git, GitHub, GitHub Actions
 
 Lecture 4: Language Basics II
 
 - Date: Sep 3, 2023
 - Topics: C#
 
-Lecture 5: Version Control and Repo Hosting
+Lecture 5: Project Management
 
-- Date: Sep 6, 2023
-- Topics: Git, GitHub, GitHub Actions
+- Date: Aug 31, 2023
+- Topics: Poetry, Unit Testing, Integration Testing
 
 Lecture 6: Containerization and Networking
 
