@@ -14,7 +14,7 @@ Lecture 2: Language Basics I
 
 Lecture 3: Version Control and Repo Hosting
 
-- Date: Sep 6, 2023
+- Date: Aug 31, 2023
 - Topics: Git, GitHub, GitHub Actions
 
 Lecture 4: Language Basics II
@@ -24,7 +24,7 @@ Lecture 4: Language Basics II
 
 Lecture 5: Project Management
 
-- Date: Aug 31, 2023
+- Date: Sep 6, 2023
 - Topics: Poetry, Unit Testing, Integration Testing
 
 Lecture 6: Containerization and Networking
