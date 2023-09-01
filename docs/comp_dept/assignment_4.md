@@ -232,6 +232,8 @@ Open a pull request from `main` of your forked repo to `main` of the upstream re
 
 ## Q2: Automation
 
+Complete these instructions under the `main` branch of your forked repo from Q1.
+
 **Write MkDocs Configurations**
 
 Create a file called `mkdocs.yml` with the following content.
