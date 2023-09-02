@@ -1,4 +1,4 @@
-# Assignment 5: Hello, C#
+# Assignment 5: Hello, C\#
 
 ## Goals
 
