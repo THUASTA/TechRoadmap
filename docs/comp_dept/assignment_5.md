@@ -22,11 +22,11 @@ Assignment Requirements:
 
 - Utilize object-oriented programming concepts to design and implement at least the following classes: (It's recommended that a C# file has one and only one class.)
 
-* `Book`: Represents a book, including properties like title, author, price, details and stock quantity.
+  * `Book`: Represents a book, including properties like title, author, price, details and stock quantity.
 
-* `Bookstore`: Manages a collection of books and performs operations like adding, removing, searching, and editing book details.
+  * `Bookstore`: Manages a collection of books and performs operations like adding, removing, searching, and editing book details.
 
-* `ShoppingCart`: Represents a shopping cart where users can add or remove books and calculate the total price of items. Implement some events, such as BookAddedToCart and BookRemovedFromCart, to notify when books are added or removed from the shopping cart. 
+  * `ShoppingCart`: Represents a shopping cart where users can add or remove books and calculate the total price of items. Implement some events, such as BookAddedToCart and BookRemovedFromCart, to notify when books are added or removed from the shopping cart. 
 
 
 
