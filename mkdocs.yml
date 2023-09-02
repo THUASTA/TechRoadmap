@@ -3,55 +3,56 @@ site_name: THUASTA Tech Roadmap
 nav:
   - Home: index.md
   - Comp Dept.:
-    - Roadmap: comp_dept/roadmap.md
-    - Syllabus: comp_dept/syllabus.md
-    - Assignment 1: comp_dept/assignment_1.md
-    - Assignment 2: comp_dept/assignment_2.md
-    - Assignment 3: comp_dept/assignment_3.md
-    - Assignment 4: comp_dept/assignment_4.md
+      - Roadmap: comp_dept/roadmap.md
+      - Syllabus: comp_dept/syllabus.md
+      - Assignment 1: comp_dept/assignment_1.md
+      - Assignment 2: comp_dept/assignment_2.md
+      - Assignment 3: comp_dept/assignment_3.md
+      - Assignment 4: comp_dept/assignment_4.md
+      - Assignment 5: comp_dept/assignment_5.md
   - Topics:
-    - Build Systems:
-      - topics/build_sys/index.md
-      - CMake: topics/build_sys/cmake.md
-    - CI/CD:
-      - topics/ci_cd/index.md
-      - GitHub Actions: topics/ci_cd/github_actions.md
-    - Containerization:
-      - topics/container/index.md
-      - Docker: topics/container/docker.md
-    - Internet:
-      - topics/networking/index.md
-      - How does the Internet work?: topics/networking/internet.md
-      - What is HTTP?: topics/networking/http.md
-      - WebSockets: topics/networking/websockets.md
-    - Learn a Language:
-      - topics/prog_lang/index.md
-      - C/C++: topics/prog_lang/c_cpp.md
-      - C#: topics/prog_lang/csharp.md
-      - Python: topics/prog_lang/python.md
-    - Learn about APIs:
-      - topics/apis/index.md
-      - REST: topics/apis/rest.md
-    - Markdown: topics/markdown.md
-    - OS and General Knowledge:
-      - topics/os/index.md
-      - Terminal Usage: topics/os/terminal.md
-      - Basic Terminal Commands: topics/os/commands.md
-    - Package Managers:
-      - topics/packages/index.md
-      - Conda: topics/packages/conda.md
-      - Poetry: topics/packages/poetry.md
-    - Repo Hosting Service:
-      - topics/repo/index.md
-      - GitHub: topics/repo/github.md
-    - Testing:
-      - topics/testing/index.md
-      - Unit Testing: topics/testing/unit_testing.md
-      - Integration Testing: topics/testing/int_testing.md
-    - Version Control System:
-      - topics/vcs/index.md
-      - Git: topics/vcs/git.md
-    - Visual Studio Code: topics/vscode.md
+      - Build Systems:
+          - topics/build_sys/index.md
+          - CMake: topics/build_sys/cmake.md
+      - CI/CD:
+          - topics/ci_cd/index.md
+          - GitHub Actions: topics/ci_cd/github_actions.md
+      - Containerization:
+          - topics/container/index.md
+          - Docker: topics/container/docker.md
+      - Internet:
+          - topics/networking/index.md
+          - How does the Internet work?: topics/networking/internet.md
+          - What is HTTP?: topics/networking/http.md
+          - WebSockets: topics/networking/websockets.md
+      - Learn a Language:
+          - topics/prog_lang/index.md
+          - C/C++: topics/prog_lang/c_cpp.md
+          - C#: topics/prog_lang/csharp.md
+          - Python: topics/prog_lang/python.md
+      - Learn about APIs:
+          - topics/apis/index.md
+          - REST: topics/apis/rest.md
+      - Markdown: topics/markdown.md
+      - OS and General Knowledge:
+          - topics/os/index.md
+          - Terminal Usage: topics/os/terminal.md
+          - Basic Terminal Commands: topics/os/commands.md
+      - Package Managers:
+          - topics/packages/index.md
+          - Conda: topics/packages/conda.md
+          - Poetry: topics/packages/poetry.md
+      - Repo Hosting Service:
+          - topics/repo/index.md
+          - GitHub: topics/repo/github.md
+      - Testing:
+          - topics/testing/index.md
+          - Unit Testing: topics/testing/unit_testing.md
+          - Integration Testing: topics/testing/int_testing.md
+      - Version Control System:
+          - topics/vcs/index.md
+          - Git: topics/vcs/git.md
+      - Visual Studio Code: topics/vscode.md
 
 markdown_extensions:
   - pymdownx.superfences:
