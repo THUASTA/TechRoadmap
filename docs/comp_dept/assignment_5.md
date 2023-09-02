@@ -20,20 +20,19 @@ Assignment Requirements:
 
 - Create a C# console application to implement the online bookstore management system.
 
-- Utilize object-oriented programming concepts to design and implement at least the following classes:
+- Utilize object-oriented programming concepts to design and implement at least the following classes: (It's recommended that a C# file has one and only one class.)
 
-`Book`: Represents a book, including properties like title, author, price, details and stock quantity.
+* `Book`: Represents a book, including properties like title, author, price, details and stock quantity.
 
-`Bookstore`: Manages a collection of books and performs operations like adding, removing, searching, and editing book details.
+* `Bookstore`: Manages a collection of books and performs operations like adding, removing, searching, and editing book details.
 
-`ShoppingCart`: Represents a shopping cart where users can add or remove books and calculate the total price of items. Implement some events, such as BookAddedToCart and BookRemovedFromCart, to notify when books are added or removed from the shopping cart. 
+* `ShoppingCart`: Represents a shopping cart where users can add or remove books and calculate the total price of items. Implement some events, such as BookAddedToCart and BookRemovedFromCart, to notify when books are added or removed from the shopping cart. 
 
-It's recommended that a C# file has one and only one class.
+
 
 - Utilize `List<T>` from the System.Collections.Generic namespace to manage collections of books and items in the shopping cart.
 
 - Write the main function to test all your classes and methods.Please ensure your code is well-structured, **commented**.
-
 
 Note that this assignment is just for practice. To save your time, please don't write too complicated or add extra features. 
 
