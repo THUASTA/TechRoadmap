@@ -34,6 +34,8 @@ Assignment Requirements:
 
 - Write the main function to test all your classes and methods.Please ensure your code is well-structured, **commented**.
 
+- Please follow the Google C# code format (<https://google.github.io/styleguide/csharp-style.html>) when writing code.  
+
 Note that this assignment is just for practice. To save your time, please don't write too complicated or add extra features. 
 
 You should finish your work by September 12nd. Once you have completed all the questions, please submit your work to Tsinghua Cloud, uploading them to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业五/张三/Book.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/Bookstore.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/ShoppingCart.cs`). If the folder does not exist, please create one.
