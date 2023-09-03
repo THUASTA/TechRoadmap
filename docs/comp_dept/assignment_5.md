@@ -36,4 +36,4 @@ Assignment Requirements:
 
 Note that this assignment is just for practice. To save your time, please don't write too complicated or add extra features. 
 
-You should finish your work by September 12th. Once you have completed all the questions, please submit your work to Tsinghua Cloud, uploading them to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业五/张三/Book.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/Bookstore.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/ShoppingCart.cs`). If the folder does not exist, please create one.
+You should finish your work by September 12nd. Once you have completed all the questions, please submit your work to Tsinghua Cloud, uploading them to the folder named after their name in Tsinghua Cloud (e.g. `ASTA2023/部门/竞赛部/技术培训/作业五/张三/Book.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/Bookstore.cs`,`ASTA2023/部门/竞赛部/技术培训/作业五/张三/ShoppingCart.cs`). If the folder does not exist, please create one.
