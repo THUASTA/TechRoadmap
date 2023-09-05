@@ -22,12 +22,6 @@ Lecture 4: Language Basics II
 - Date: Sep 3, 2023
 - Topics: C#
 
-Lecture 5: Project Management
+Lecture 5: Miscellaneous
 
 - Date: Sep 6, 2023
-- Topics: Poetry, Unit Testing, Integration Testing
-
-Lecture 6: Containerization and Networking
-
-- Date: Sep 9, 2023
-- Topics: Docker, Internet, HTTP, WebSocket, REST
